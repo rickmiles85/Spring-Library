@@ -68,4 +68,9 @@ public class LibraryService {
 
 		return !this.repo.existsById(id);
 	}
+
+	public List<Library> getLibaries() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

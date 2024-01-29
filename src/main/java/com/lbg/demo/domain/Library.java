@@ -5,14 +5,12 @@ import java.util.List;
 import org.springframework.http.ResponseEntity;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 
 @Entity
 public class Library {
 
 	@Id
-	@GeneratedValue
 	private Integer id;
 	private String name;
 	private String location;

@@ -12,14 +12,15 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.lbg.demo.domain.Library;
+import com.lbg.demo.services.LibraryService;
 
 @RestController
 
 public class Controller {
 
-	private Library service;
+	private LibraryService service;
 
-	public Controller(Library service) {
+	public Controller(LibraryService service) {
 		super();
 		this.service = service;
 	}
