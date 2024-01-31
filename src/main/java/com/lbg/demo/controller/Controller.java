@@ -15,7 +15,6 @@ import com.lbg.demo.domain.Library;
 import com.lbg.demo.services.LibraryService;
 
 @RestController
-
 public class Controller {
 
 	private LibraryService service;
